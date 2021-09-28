@@ -1,2 +1,0 @@
-# jeremy-crump
-Hello World!
