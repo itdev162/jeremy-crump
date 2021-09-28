@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ipref\\Desktop\\School\\3rd and 4th semester\\Fall 2021\\ITDEV162-500 Client Server ECOM\\jeremy-crump\\API\\API.csproj": {}
+    "C:\\Users\\ipref\\Desktop\\School\\3rd and 4th semester\\Fall 2021\\ITDEV162-500 Client Server ECOM\\jeremy-crump\\api\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ipref\\Desktop\\School\\3rd and 4th semester\\Fall 2021\\ITDEV162-500 Client Server ECOM\\jeremy-crump\\API\\API.csproj": {
+    "C:\\Users\\ipref\\Desktop\\School\\3rd and 4th semester\\Fall 2021\\ITDEV162-500 Client Server ECOM\\jeremy-crump\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ipref\\Desktop\\School\\3rd and 4th semester\\Fall 2021\\ITDEV162-500 Client Server ECOM\\jeremy-crump\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\ipref\\Desktop\\School\\3rd and 4th semester\\Fall 2021\\ITDEV162-500 Client Server ECOM\\jeremy-crump\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\ipref\\Desktop\\School\\3rd and 4th semester\\Fall 2021\\ITDEV162-500 Client Server ECOM\\jeremy-crump\\API\\API.csproj",
+        "projectPath": "C:\\Users\\ipref\\Desktop\\School\\3rd and 4th semester\\Fall 2021\\ITDEV162-500 Client Server ECOM\\jeremy-crump\\api\\API.csproj",
         "packagesPath": "C:\\Users\\ipref\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ipref\\Desktop\\School\\3rd and 4th semester\\Fall 2021\\ITDEV162-500 Client Server ECOM\\jeremy-crump\\API\\obj\\",
+        "outputPath": "C:\\Users\\ipref\\Desktop\\School\\3rd and 4th semester\\Fall 2021\\ITDEV162-500 Client Server ECOM\\jeremy-crump\\api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -23,15 +23,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "netcoreapp2.2"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "netcoreapp2.2": {
             "projectReferences": {
               "C:\\Users\\ipref\\Desktop\\School\\3rd and 4th semester\\Fall 2021\\ITDEV162-500 Client Server ECOM\\jeremy-crump\\Application\\Application.csproj": {
                 "projectPath": "C:\\Users\\ipref\\Desktop\\School\\3rd and 4th semester\\Fall 2021\\ITDEV162-500 Client Server ECOM\\jeremy-crump\\Application\\Application.csproj"
@@ -46,33 +45,31 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "netcoreapp2.2": {
           "dependencies": {
-            "Swashbuckle.AspNetCore": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[5.6.3, )"
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
             }
           },
           "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
+            "net461"
           ],
           "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+          "warn": true
         }
       }
     },
@@ -95,15 +92,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "netstandard2.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "netstandard2.0": {
             "projectReferences": {
               "C:\\Users\\ipref\\Desktop\\School\\3rd and 4th semester\\Fall 2021\\ITDEV162-500 Client Server ECOM\\jeremy-crump\\Domain\\Domain.csproj": {
                 "projectPath": "C:\\Users\\ipref\\Desktop\\School\\3rd and 4th semester\\Fall 2021\\ITDEV162-500 Client Server ECOM\\jeremy-crump\\Domain\\Domain.csproj"
@@ -121,24 +117,20 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
         }
       }
     },
@@ -161,15 +153,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "netstandard2.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "netstandard2.0": {
             "projectReferences": {}
           }
         },
@@ -180,24 +171,20 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
         }
       }
     },
@@ -220,15 +207,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "netstandard2.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "netstandard2.0": {
             "projectReferences": {
               "C:\\Users\\ipref\\Desktop\\School\\3rd and 4th semester\\Fall 2021\\ITDEV162-500 Client Server ECOM\\jeremy-crump\\Domain\\Domain.csproj": {
                 "projectPath": "C:\\Users\\ipref\\Desktop\\School\\3rd and 4th semester\\Fall 2021\\ITDEV162-500 Client Server ECOM\\jeremy-crump\\Domain\\Domain.csproj"
@@ -243,24 +229,20 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
         }
       }
     }
