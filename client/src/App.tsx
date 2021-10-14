@@ -1,34 +1,33 @@
 import React from 'react';
 import './App.css';
-import axios  from 'axios';
+import axios from 'axios';
 
 class App extends React.Component {
   state = {
     values: []
   }
 
-  componentDidMount() {
+  componentDidMount(){
     axios.get('http://localhost:5000/api/values')
-    .then((Response) =>{
+    .then((response) => {
       this.setState({
-        values: Response.data
+        values: response.data
       })
     })
-    .catch((error)=>{
+    .catch((error) => {
       console.error(`Error fetching data: ${error}`);
     })
   }
 
   render(){
-    return(
+    return (
       <div className="App">
-      <header className="App-header">
-      BlogBox
-      </header>
-      {this.state.values.map((value:any) => <div key={value}>{value}</div>)}
+        <header className="App-header">
+          BlogBox
+        </header>
       </div>
     );
-  }
+  } 
 }
 
 export default App;
