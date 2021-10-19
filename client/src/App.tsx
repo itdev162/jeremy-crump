@@ -25,6 +25,7 @@ class App extends React.Component {
         <header className="App-header">
           BlogBox
         </header>
+        {this.state.values.map((value: any) => <div key={value}>{value}</div>)}
       </div>
     );
   } 
